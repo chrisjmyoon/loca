@@ -1,0 +1,13 @@
+plot = True 
+show_plots = True
+
+num_epochs = 100
+# lr = 1e-2 # for single
+lr = 1e-3 # for Z
+# lr = 1e-4 # for finetune 
+
+# weight_decay = 1e-3
+weight_decay = 0
+batch_size = 32
+overwrite_state = True # recomputes factors
+overwrite_plot_state = True # used in eval_plot

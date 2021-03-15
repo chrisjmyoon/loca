@@ -1,0 +1,37 @@
+# ------------- general options ----------------------------------------
+save_path = "~/loca/artifacts/"  # path for saved artifacts
+gpu = "0"      
+print_freq = 5 
+num_workers = 14  # number of threads used for data loading, set to 0 for debugging dataloader
+
+
+# ------------- experiment options -------------------------------------
+test_mode = 0   # if test mode is none zero, dataloaders are stopped early
+mode = "train" # options: train, visualize, eval
+
+# ------------- lssl options -------------------------------------------
+len_z = 10
+# len_z = 512
+
+# ------------- data options -------------------------------------------
+split_dir = "~/loca/splits/"   
+shuffle = True
+pin_memory = True
+rand_seed = 30
+
+# -------------  optimization options ----------------------------------
+batch_size = 32 
+desired_bs = 32 
+momentum = 0.9  
+weight_decay = 1e-4 
+lr = 1e-4   
+epochs = 150
+scheduler = true    # uses a learning rate scheduler specified in agent
+
+# ------------- logging options ----------------------------------------
+visdom = true
+
+# ------------- resume or retrain options ------------------------------
+retrain = ""    # path to pretrained model
+resume = ""     # path to saved state
+notes = ""      # string to save notes on experiment

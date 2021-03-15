@@ -1,0 +1,14 @@
+# -------------  experiment options ----------------------------------------
+# All settings that are specific to an experiment goes here
+exp_id = "loca_aud_lenk10"
+test_mode = 0   # if test mode is none zero, dataloaders are stopped early
+mode = "eval_frozen_dx" # options: train, eval_class_separability, eval_dcorr, eval_frozen_tau, eval_finetune_dx, eval_frozen_dx
+dataset = "aud" # options: adni, aud
+
+retrain = ""    # path to pretrained model
+resume = "~/loca/artifacts/loca_adni/3/best_checkpoint.pth.tar"     # path to saved state
+resume = ""
+notes = ""      # string to save notes on experiment
+
+len_z = 512
+len_k = 10 # number of tau's

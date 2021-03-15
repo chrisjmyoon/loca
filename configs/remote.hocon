@@ -1,0 +1,7 @@
+# ------------- remote options ----------------------------------------
+remote = False # toggles whether or not this is local machine or remote
+test_mode = 0 
+num_workers = 4 
+print_freq = 5 
+batch_size = 32  
+desired_bs = 64

@@ -1,0 +1,5 @@
+# -------------  adni options -------------------------------------------
+data_path = "~/data/preprocessed/adni/data/"
+label1 = "Normal"
+label2 = "AD"
+meta_path = "~/data/adni/ADNIMERGE.csv"

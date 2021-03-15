@@ -1,0 +1,13 @@
+# -------------  experiment options ----------------------------------------
+# All settings that are specific to an experiment goes here
+exp_id = "baseae_adni_lenz512"
+test_mode = 0   # if test mode is none zero, dataloaders are stopped early
+mode = "eval_dcorr" # options: train, eval_class_separability, eval_dcorr, eval_frozen_tau, eval_finetune_dx, eval_frozen_dx
+dataset = "aud" # options: adni, aud
+
+retrain = ""    # path to pretrained model
+resume = "~/loca/artifacts/baseae_adni/3/best_checkpoint.pth.tar"     # path to saved state
+resume = ""
+notes = ""      # string to save notes on experiment
+
+len_z = 512

@@ -1,0 +1,7 @@
+# -------------  adni options -------------------------------------------
+# data_path = "~/data/lab_data/img_64_longitudinal/"  # path for dataset folder
+data_path = "~/data/preprocessed/aud/data/"
+label1 = "C"
+label2 = "D"
+# label2 = "H"
+meta_path = "~/data/lab_data/demographics_lab.csv"

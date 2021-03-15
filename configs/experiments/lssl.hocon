@@ -1,0 +1,13 @@
+# -------------  experiment options ----------------------------------------
+# All settings that are specific to an experiment goes here
+exp_id = "baselssl_adni"
+test_mode = 0   # if test mode is none zero, dataloaders are stopped early
+mode = "train" # options: train, visualize, eval, box, plot
+dataset = "adni" # options: adni, aud
+
+retrain = ""    # path to pretrained model
+resume = "~/loca/artifacts/baselssl_adni/3/best_checkpoint.pth.tar"     # path to saved state
+resume = ""
+notes = ""      # string to save notes on experiment
+
+len_z = 512
